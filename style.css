@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+:root {
+    --base-left: 20px;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: #10679a;
+    color: #fff;
+    font-family: 'kanit', sans-serif;
+    width: 18%;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+
+#container h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+#container input[type="checkbox"], #container input#length {
+    float: right;
+}
+
+#container input#result {
+    border: 0px solid transparent;
+    background-color: #0b3349;
+    width: 250px;
+    height: 50px;
+}
+
+#container input#length {
+    width: 60px;
+    height: 15px;
+}
+
+#container button {
+    background-color: #0093E9;
+    border: 0px solid transparent;
+    color: white;
+    transform: calc(var(--base-left) + 10px);
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#container label {
+    float: left;
+}
+
+#container button:hover {
+    cursor: pointer;
+}
+
+#buttonsigma {
+    text-align: center;
+    justify-content: center;
+}
